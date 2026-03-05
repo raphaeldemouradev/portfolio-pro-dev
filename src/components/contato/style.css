@@ -1,0 +1,58 @@
+.section-contato { 
+    background-color: var(--cor2);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.title-contato {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div > input, textarea {
+    padding: 10px;
+    width: 300px;
+    background-color: #b1b1b1;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+textarea {
+    height: 120px;
+}
+
+form input[type=submit] {
+    padding: 10px 20px;
+    background-color: #b9b9b9;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #658f7f;
+}
+
+form input[type=submit]:hover {
+    background-color: #a7a7a7;
+}
+
+.midias-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+div.midias-sociais > a {
+    color: black;
+}

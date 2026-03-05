@@ -1,0 +1,85 @@
+.section-projetos {
+    background-color: var(--cor2);
+    padding-top: 50px;
+}
+
+.title-projeto {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container-grade {
+    padding: 10px;
+}
+
+.container-grade aside {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.grade-one {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 10px;
+
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.grade-two {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 10px;
+
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.grade-one .box, .grade-two .box {
+    display: grid;
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*box*/
+.head-quadro {
+    background-color: #c4c4c4;
+    padding: 5px;
+}
+
+.banner {
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+.body-quadro {
+    margin: 5px;
+}
+
+.button-projeto {
+    margin: auto;
+    display: block;
+    background-color: #007c3e;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.button-projeto:hover {
+    background-color: #005a2d;
+    color: #adadad;
+} 
+
+.button-projeto > a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}

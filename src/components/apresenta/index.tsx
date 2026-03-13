@@ -6,7 +6,7 @@ export default function Apresenta() {
         <div className='section-apresenta'>
             <nav></nav>
 
-            <section>
+            <section className='molde-flex'>
                 <div>
                     <img src={RaphaelImg} alt="img-raphael" className='foto-img'/>
                 </div>

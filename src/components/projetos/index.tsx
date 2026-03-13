@@ -18,9 +18,10 @@ export default function Projetos() {
                                     <img className="banner" src={item.image} alt="img-movie" />
                                 </div>
                                 <div className="body-quadro">
+                                    <p>{item.title}</p>
                                     <p className="descricao-projeto">{item.description}</p>
                                 </div>
-                                <div>
+                                <div className='div-button'>
                                     <button className="button-projeto">
                                         <a href={item.link} target='_blank' rel='noopener noreferrer'>Ver Projeto</a>
                                     </button>

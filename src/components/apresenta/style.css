@@ -15,6 +15,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 15px;
+    transition: .5s;
 }
 
 .foto-img {
@@ -36,4 +37,20 @@
     font-weight: bolder;
     text-align: center;
     font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-apresenta section {
+        flex-direction: row-reverse;
+        gap: 50px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+.section-apresenta section {
+        flex-direction: row-reverse;
+        gap: 50px;
+        font-size: 25px;
+    }
 }

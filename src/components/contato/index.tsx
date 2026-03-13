@@ -24,11 +24,11 @@ export default function Contato() {
                 </form>
 
                 <div className="midias-sociais">
-                    <a href="https://www.linkedin.com/in/raphael-moura-dev/">
+                    <a href="https://www.linkedin.com/in/raphael-moura-dev/" target='_blank'>
                     <i className="fa-brands fa-linkedin"></i>
                     </a>
 
-                    <a href="https://github.com/raphaeldemouradev">
+                    <a href="https://github.com/raphaeldemouradev" target='_blank'>
                         <i className="fa-brands fa-github"></i>
                     </a>
                 </div>

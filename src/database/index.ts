@@ -13,15 +13,15 @@ export const projetos: Projeto[] = [
   {
     id: "1",
     image: movieLogo,
-    title: "Catalogo de Filmes",
-    description: "Catalogo de Filmes, feito com React e JavaScript com API integrada.",
+    title: "Catalogo de Filmes.",
+    description: "Aplicação desenvolvida em React que consome dados em tempo real via API (TMDB).",
     link: "https://catalogo-logtv.netlify.app/",
   },
   {
     id: "2",
     image: wether,
     title: "Previsão do Tempo",
-    description: "",
+    description: "Criado com JavaScript, está integrado com a API OpenWeather para fornecer dados em tempo real e previsão completa para 5 dias.",
     link: ""
   }
 ];

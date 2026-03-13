@@ -39,9 +39,9 @@
 
 .grade-one .box, .grade-two .box {
     display: grid;
-    background-color: gray;
+    background-color: rgb(100, 100, 100);
     width: 250px;
-    height: 250px;
+    height: 100%;
     border-radius: 10px;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,8 +49,11 @@
 
 /*box*/
 .head-quadro {
-    background-color: #c4c4c4;
+    background-color: #cecdbf;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner {
@@ -61,13 +64,25 @@
 }
 
 .body-quadro {
-    margin: 5px;
+    margin: 8px;
+    height: 80px;
+    font-weight: bold;
+    color: #f3f3f3;
+}
+
+.descricao-projeto {
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+.div-button {
+    padding: 5px;
 }
 
 .button-projeto {
     margin: auto;
     display: block;
-    background-color: #007c3e;
+    background-color: #008127;
     padding: 5px 10px;
     border-radius: 10px;
     border: 1px solid black;

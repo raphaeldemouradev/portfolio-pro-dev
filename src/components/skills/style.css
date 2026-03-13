@@ -11,12 +11,11 @@
 }
 
 .container-skill {
-    padding: 20px;
+    padding: 10px;
     display: grid;
-    margin-left: 10px;
     gap: 20px;
     list-style: inside;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 40px;
 }
 
@@ -24,6 +23,7 @@
 .front-details h2 {
     color: #4b9fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
 }
 
 .front-details ul {
@@ -42,6 +42,7 @@
 .design-details h2 {
     color: #0DFF00;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
 }
 
 .design-details ul {
@@ -54,4 +55,26 @@
 .design-details strong {
     text-decoration: underline;
     color: #44c585;
+}
+
+@media screen and (min-width: 768px) {
+    .container-skill {
+        padding: 30px 30px;
+        font-size: 20px;
+    }
+
+    .front-details li {
+        line-height: 35px;
+    }
+
+    .design-details li {
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container-skill {
+        padding: 30px 50px 50px 50px;
+        font-size: 24px;
+    }
 }

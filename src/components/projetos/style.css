@@ -1,38 +1,33 @@
+@charset "utf-8";
+
+/* Dad - Project - Section */
 .section-projetos {
     background-color: var(--cor2);
     padding-top: 50px;
 }
 
-.title-projeto {
+.title-projetos {
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
     text-align: center;
 }
 
+/* Dad - container */
 .container-grade {
     padding: 10px;
 }
 
-.container-grade aside {
+/* Child - container - Grid */
+.row-line {
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.grade-one {
+.grade-one, .grade-two {
     display: grid;
     grid-template-columns: 0fr 0fr 0fr;
     gap: 10px;
-
-    padding: 10px;
-    overflow-y: auto;
-}
-
-.grade-two {
-    display: grid;
-    grid-template-columns: 0fr 0fr 0fr;
-    gap: 10px;
-
     padding: 10px;
     overflow-y: auto;
 }
@@ -72,6 +67,7 @@
 
 .descricao-projeto {
     padding-top: 2px;
+    padding-bottom: 1px;
     font-size: 14px;
 }
 

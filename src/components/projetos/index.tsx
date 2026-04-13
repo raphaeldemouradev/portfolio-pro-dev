@@ -1,16 +1,16 @@
-import './style.css'
-
 import { projetos } from '../../database';
+import './style.css'
 
 export default function Projetos() {
     return (
         <div className='section-projetos'>
             <div>
-                <h1 className='title-projeto'>Projetos</h1>
+                <h1 className='title-projetos'>Projetos</h1>
             </div>
 
             <section className='container-grade'>
-                <aside>
+                
+                <aside className='row-line'>
                     <div className='grade-one'>
                         {projetos.slice(0, 3).map((item) => (
                             <div className='box' key={item.id}>
@@ -31,7 +31,7 @@ export default function Projetos() {
                     </div>
                 </aside>
 
-                <aside>
+                <aside className='row-line'>
                     <div className='grade-two'>
                         {projetos.slice(3, 6).map((item) => (
                             <div className='box' key={item.id}>

@@ -13,7 +13,7 @@ function App() {
         <Contato />
         <footer>
           <p>© 2026 Raphael.Dev - Todos os direitos reservados.</p>
-    </footer>
+        </footer>
     </div>
   )
 }

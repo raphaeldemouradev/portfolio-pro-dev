@@ -4,15 +4,21 @@ import './style.css'
 export default function Apresenta() {
     return (
         <div className='section-apresenta'>
-            <nav></nav>
+            <nav className='nav-apresenta'></nav>
 
-            <section className='molde-flex'>
+            <section className='container-flex'>
                 <div>
-                    <img src={RaphaelImg} alt="img-raphael" className='foto-img'/>
+                    <img 
+                        src={RaphaelImg} 
+                        alt="raphael-img" 
+                        fetchPriority='high'
+                        loading='eager'
+                        className='foto-img'
+                    />
                 </div>
                 <div>
-                    <h1>Raphael de Moura</h1>
-                    <p>Desenvolvedor Front-end</p>
+                    <h1 className='title-apresenta'>Raphael de Moura</h1>
+                    <p className='profissao-name'>Desenvolvedor Front-end</p>
                 </div>
             </section>
         </div>

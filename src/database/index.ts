@@ -14,22 +14,22 @@ export const projetos: Projeto[] = [
   {
     id: "0",
     image: blogImg,
-    title: "Hyper Pop - Blog de Notiías",
-    description: "Portal dinâmico sobre games, esportes e entretenimento. Interface responsiva com Next.js, TypeScript Tailwind e DatoCMS.",
+    title: "Hyper Pop - Blog de Noticías",
+    description: "Portal de noticías dinâmico sobre games, esportes e entretenimento. Interface responsiva com Next.js, TypeScript Tailwind e DatoCMS.",
     link: "https://hyper-pop.vercel.app"
   },
   {
     id: "1",
     image: movieLogo,
     title: "Catalogo de Filmes",
-    description: "Aplicação desenvolvida em React que consome dados em tempo real via API (TMDB).",
+    description: "Aplicação desenvolvida em React, consome dados em tempo real via API (TMDB).",
     link: "https://catalogo-logtv.netlify.app/",
   },
   {
     id: "2",
     image: wether,
     title: "Previsão do Tempo",
-    description: "Criado com JavaScript, está integrado com a API OpenWeather para fornecer dados em tempo real e previsão completa para 5 dias.",
+    description: "Criado com JavaScript e integrado com a API OpenWeather para fornecer dados em tempo real e previsão completa para 5 dias.",
     link: "https://raphaeldemouradev.github.io/projeto-clima/"
   },
   {

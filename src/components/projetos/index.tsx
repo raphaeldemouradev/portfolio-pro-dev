@@ -17,11 +17,13 @@ export default function Projetos() {
                                 <div className="head-quadro">
                                     <img className="banner" src={item.image} alt="img-movie" />
                                 </div>
-                                <div className="body-quadro">
+                                <div className='category'>
                                     <p>{item.title}</p>
+                                </div>
+                                <div className="description-area">
                                     <p className="descricao-projeto">{item.description}</p>
                                 </div>
-                                <div className='div-button'>
+                                <div className='btn-area'>
                                     <button className="button-projeto">
                                         <a href={item.link} target='_blank' rel='noopener noreferrer'>Ver Projeto</a>
                                     </button>
@@ -38,10 +40,13 @@ export default function Projetos() {
                                 <div className="head-quadro">
                                     <img className="banner" src={item.image} alt="img-movie" />
                                 </div>
-                                <div className="body-quadro">
+                                <div className='category'>
+                                    <p>{item.title}</p>
+                                </div>
+                                <div className="description-area">
                                     <p className="descricao-projeto">{item.description}</p>
                                 </div>
-                                <div>
+                                <div className='btn-area'>
                                     <button className="button-projeto">
                                         <a href={item.link} target='_blank' rel='noopener noreferrer'>Ver Projeto</a>
                                     </button>

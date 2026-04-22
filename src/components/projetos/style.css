@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Dad - Project - Section */
 .section-projetos {
@@ -7,7 +8,8 @@
 }
 
 .title-projetos {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -15,6 +17,8 @@
 /* Dad - container */
 .container-grade {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Child - container - Grid */
@@ -27,24 +31,26 @@
 .grade-one, .grade-two {
     display: grid;
     grid-template-columns: 0fr 0fr 0fr;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
     overflow-y: auto;
 }
 
 .grade-one .box, .grade-two .box {
-    display: grid;
-    background-color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(133, 133, 133);
     width: 250px;
-    height: 100%;
+    height: 300px;
     border-radius: 10px;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px #929292;
 }
 
 /*box*/
 .head-quadro {
-    background-color: #cecdbf;
+    background-color: #c5c5c5;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -52,23 +58,33 @@
 }
 
 .banner {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     display: block;
     margin: auto;
 }
 
-.body-quadro {
-    margin: 8px;
-    height: 80px;
+.category {
+    background-color: #303030;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.description-area {
+    padding: 10px 10px 0px 10px;
+    height: auto;
     font-weight: bold;
     color: #f3f3f3;
 }
 
-.descricao-projeto {
-    padding-top: 2px;
-    padding-bottom: 1px;
-    font-size: 14px;
+.btn-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: auto;
+    margin: auto 5px 5px;
 }
 
 .div-button {
@@ -93,4 +109,15 @@
     color: #fff;
     font-weight: bold;
     text-decoration: none;
+}
+
+
+@media screen and (min-width: 992px) {
+    .category {
+        padding-left: 10px;
+    }
+
+    .grade-one .box, .grade-two .box {
+        width: 300px;
+    }
 }

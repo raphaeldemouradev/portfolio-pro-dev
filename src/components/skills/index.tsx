@@ -72,8 +72,8 @@ export default function Skills() {
                 <aside className='design-details'>
                     <h2>Design</h2>
                     <ul>
-                        <li><strong>Fundamentos:</strong> Teoria das Cores, Tipografia, Composição e Hierarquia Visual;</li>
-                        <li><strong>Web Design:</strong> Mobile First, Desenvolvimento Responsivo e UI Design;</li>
+                        <li><strong>Fundamentos:</strong> Teoria das Cores, Tipografia, Composição e Layout;</li>
+                        <li><strong>Web Design:</strong> Mobile First e UI Design;</li>
                         <li><strong>UX Técnico:</strong> Jornada do Usuário, Wireframes e protótipos;</li>
                         <li><strong>Ferramentas:</strong> Figma, GIMP e Canva.</li>
                     </ul>

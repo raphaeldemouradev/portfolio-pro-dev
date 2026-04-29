@@ -19,6 +19,9 @@
 }
 
 /*front*/
+.front-details {
+    padding-bottom: 10px;
+}
 .front-details h2 {
     color: #4b9fff;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -26,7 +29,7 @@
     text-decoration: underline;
 }
 
-strong {
+.front-details strong {
     color: #36afd4;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 5px;
@@ -51,40 +54,57 @@ strong {
 /*design*/
 .design-details h2 {
     color: #0DFF00;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     padding-bottom: 5px;
+    text-decoration: underline;
 }
 
 .design-details ul {
-    color: #00FF80;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     line-height: 25px;
 }
 
-.design-details strong {
+.design-details > ul > li {
+    color: #5aa780;
+    text-shadow: 1px 1px 15px #000000;
+} 
+
+.design-details > ul > li > strong {
     text-decoration: underline;
-    color: #44c585;
+    font-weight: bold;
+    color: #06df72;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
     .container-skill {
-        padding: 30px 30px;
-        font-size: 20px;
+        padding: 0px 10px 20px 20px;
+        font-size: 14px;
     }
 
-    .front-details li {
-        line-height: 35px;
+    .front-details strong, .design-details strong {
+        font-size: 12px;
+    }
+
+    .design-details ul {
+        margin-left: 20px;
     }
 
     .design-details li {
-        line-height: 35px;
+        line-height: 20px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .container-skill {
-        padding: 30px 50px 50px 50px;
-        font-size: 24px;
+        padding: 0px 10px 20px 40px;
+        font-size: 18px;
+    }
+
+    .front-details strong, .design-details strong {
+        font-size: 16px;
+    }
+
+    .design-details li {
+        line-height: 24px;
     }
 }

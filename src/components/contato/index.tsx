@@ -16,7 +16,7 @@ export default function Contato() {
                         <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" />
                     </div>
                     <div>
-                        <textarea name="msg" id="imsg" placeholder="Digite sua mensagem"></textarea>
+                        <textarea name="msg" id="imsg" rows={5} maxLength={500} placeholder="Digite sua mensagem"></textarea>
                     </div>
                     <div>
                         <input type="submit" value="Enviar" id="submit" />
